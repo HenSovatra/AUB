@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Krasar";
+    src: url("../font/KRASAR-REGULAR.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    user-select: none;
+}
+:root {
+    --primary-color: #1B3452;
+    --secondary-color: #b08d23;
+    --white-color: #FFFFFF;
+    --thirdary-color: #cf4b27;
+    --font-size: 16px;
+    --font-montserrat: "Montserrat";
+  }
+  
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 3%;
+    font-family: "Krasar";
+    background: linear-gradient(to left, #1B3452, #001937,#000E20);
+    height: 100vh;
+    overflow-x: hidden;
+}
+.carousel-frame {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-frame-degree{
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .carousel-frame {
+        max-width: 100%;
+        border-radius: 20px; 
+    }
+}
+
+.carousel-frame .owl-carousel img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.owl-dots {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    z-index: 10; 
+}
+
+.owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.7) !important; 
+    border-radius: 50%;
+    margin: 5px;
+    transition:  0.3s ease-in-out;
+}
+
+.owl-dot.active {
+    background-color: rgba(255, 255, 255, 0.7) !important; 
+    width: 24px;
+    border-radius: 15px;
+}
+.title{
+    color:var(--white-color);
+    font-weight: bold;
+}
+
+.degree-container {
+    display: flex;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.degree-button {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.3s, box-shadow 0.3s;
+}
+
+.degree-button.active {
+    background: var(--secondary-color);
+    color: var(--white-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.carousel-degree .major{
+    background-color: var(--white-color);
+    height: 200px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.carousel-degree{
+    padding-bottom: 10px;
+}
+.carousel-degree .major .major-title{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.carousel-degree .major .major-icon svg{
+    fill: var(--secondary-color);
+    height: 50px;
+}
+.carousel-degree .major .major-icon svg path{
+    stroke: var(--secondary-color);
+    height: 50px;
+}
+.carousel-degree .major .major-icon{
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+.student-achieve-frame{
+    background-color: #A9A9A9;
+    padding:30px;
+    border-radius: 30px;
+}
+
+.news {
+    position: relative;
+}
+.news img{
+width: 100%;
+border-radius: 20px;
+}
+.news .link{
+    width: 100%;
+    background-color: var(--white-color);
+    position: absolute;
+    bottom: 0;
+    padding: 2%;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+}
+.news .link a{
+    color: var(--secondary-color);
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% 
+    {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+.register {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 1; /* Initially visible */
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+    transform: translateY(-5px); 
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent interaction when hidden */
+}
+
+.bounce {
+    animation: bounce 0.6s ease;
+}
+.register-btn {
+    display: flex;
+    align-items: center;
+    background-color: var(--thirdary-color);
+    border: 3px solid var(--white-color); 
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--white-color);
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 160px;
+}
+
+.register-btn .icon {
+    color: var(--white-color);
+    border: 3px solid var();
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.register-btn:hover {
+    background-color: #1a426a;
+}
+
+#language{
+    border: 2px solid white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+
+    .title{
+        color:var(--white-color);
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .degree-button{
+        font-size: 14px;
+    }
+}
