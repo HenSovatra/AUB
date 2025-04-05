@@ -93,6 +93,8 @@ $(document).ready(function(){
         }, 1500);
     });
     $("#language").click(function(){
+        console.log("hello hi bye bye");
+        alert('alert')
         window.location.href = "indexkhmer.html";
     })
     

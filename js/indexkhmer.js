@@ -93,6 +93,7 @@ $(document).ready(function(){
         }, 1500);
     });
     $("#language").click(function(){
+        alert('noo')
         window.location.href = "index.html";
     })
     
