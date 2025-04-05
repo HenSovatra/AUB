@@ -17,7 +17,7 @@
                         "img": "img-master.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-master.png",
+                        "styleimg": "img-style-bachelor-1.png",
                         "willLearn": [
                             "Understanding advanced financial management principles.",
                             "Managing banking operations and international financial systems.",
@@ -634,7 +634,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-1.png",
                         "willLearn": [
                             "Understanding financial systems and banking operations.",
                             "Mastering financial analysis and investment strategies.",
