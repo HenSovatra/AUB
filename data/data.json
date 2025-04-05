@@ -50,7 +50,7 @@
                         "price": 2500,
                         "curriculaLink": "https://aub.edu.kh/tc/eng/ap_curricula_master_business_administration_finance.pdf",
                         "img": "img-master.jpg",
-                        "styleimg": "img-style-finance.png",
+                        "styleimg": "img-style-bachelor-1.png",
                         "yearOfStudy": 2,
                         "credits": 60,
                         "willLearn": [
@@ -79,7 +79,7 @@
                     {
                         "id": 3,
                         "name": "Management",
-                        "namekh": "ការគ្រប់គ្រង",
+                        "namekh": "គ្រប់គ្រង",
                         "description": "The Management Master’s program prepares students for leadership roles in various industries. It focuses on advanced management theories, strategic decision-making, and organizational behavior. Students will gain skills in managing teams, optimizing business operations, and developing strategies for organizational success in a dynamic business environment.",
                         "descriptionkh": "កម្មវិធីម៉ាស្ទ័រដំណោះស្រាយការគ្រប់គ្រងរៀបចំសិស្សសម្រាប់តួនាទីដឹកនាំនៅក្នុងឧស្សាហកម្មនានា។ វាគ្របដណ្តប់ទៅលើគ្រឹះសាស្ត្រប្រតិបត្ដិករដ៏ជ្រាលជ្រៅនៃការគ្រប់គ្រង ការសម្រេចចិត្តយុទ្ធសាស្ត្រ និងអាកប្បកិរិយារបស់អង្គភាព។ សិស្សនឹងទទួលបានជំនាញក្នុងការគ្រប់គ្រងក្រុមការងារ ការបញ្ចុះបញ្ចូលប្រតិបត្ដិការអាជីវកម្ម និងការផលិតយុទ្ធសាស្ត្រសម្រាប់ជោគជ័យរបស់អង្គភាពក្នុងបរិបទអាជីវកម្មដែលមានការផ្លាស់ប្តូរ។",
                         "price": 2500,
@@ -87,7 +87,7 @@
                         "img": "img-master.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-master.png",
+                        "styleimg": "img-style-bachelor-7.png",
                         "willLearn": [
                             "Mastering leadership and organizational behavior theories.",
                             "Understanding strategic decision-making and problem-solving techniques.",
@@ -185,7 +185,7 @@
                         "img": "img-bachelor-3.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-3.png",
+                        "styleimg": "img-style-bachelor-15.png",
                         "willLearn": [
                             "Leading campaigns and developing marketing strategies.",
                             "Managing brand identity and reputation.",
@@ -208,7 +208,7 @@
                     {
                         "id": 4,
                         "name": "Law",
-                        "namekh": "ច្បាប់",
+                        "namekh": "នីតិសាស្ត្រ",
                         "description": "The Law major provides students with a strong foundation in legal principles, justice systems, and critical thinking skills. This program covers constitutional law, criminal justice, contracts, and human rights, preparing students for careers in legal practice, corporate law, government, and advocacy.",
                         "descriptionkh": "មុខវិជ្ជាច្បាប់ផ្តល់និស្សិតនូវមូលដ្ឋានដ៏រឹងមាំនៅក្នុងគោលការណ៍ច្បាប់ ប្រព័ន្ធយុតិ្តធម៌ និងជំនាញគិតយ៉ាងច្បាស់។ កម្មវិធីនេះគ្របដណ្តប់ច្បាប់រដ្ឋធម្មនុញ្ញ យុតិ្តធម៌ក្រុមហ៊ុន សន្និដ្ឋាន និងសិទិ្ធមនុស្ស ដើម្បីត្រៀមនិស្សិតសម្រាប់ការងារនៅក្នុងវិស័យច្បាប់ ការគ្រប់គ្រងច្បាប់ រាជរដ្ឋាន និងការតស៊ូបែបជំនួញ។",
                         "price": 1200,
@@ -243,7 +243,7 @@
                     {
                         "id": 5,
                         "name": "International Business",
-                        "namekh": "អាជីវកម្មអន្តរជាតិក្នុងកម្រិតសាកល",
+                        "namekh": "ពាណិជ្ជកម្មអន្តរជាតិ",
                         "description": "The International Business major prepares students for careers in global trade, cross-border commerce, and multinational management. This program covers international markets, trade policies, supply chain logistics, and business strategies to help students succeed in a globally interconnected economy.",
                         "descriptionkh": "មុខវិជ្ជាអាជីវកម្មអន្តរជាតិនេះត្រៀមនិស្សិតសម្រាប់ការងារនៅក្នុងជំនួញពិភពលោក គ្រប់គ្រងពាណិជ្ជកម្មព្រំដែន និងការគ្រប់គ្រងអន្តរជាតិក្រុមហ៊ុន។ កម្មវិធីនេះគ្របដណ្តប់ទីផ្សារអន្តរជាតិ គោលនយោបាយពាណិជ្ជកម្ម ផែនការដឹកជញ្ជូនរោងចក្រ និងយុទ្ធសាស្ត្រអាជីវកម្ម ដើម្បីជួយឲ្យនិស្សិតទទួលបានជោគជ័យក្នុងសេដ្ឋកិច្ចពិភពលោកដែលភ្ជាប់គ្នា។",
                         "price": 1200,
@@ -251,7 +251,7 @@
                         "img": "img-bachelor-5.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-5.png",
+                        "styleimg": "img-style-bachelor-11.png",
                         "willLearn": [
                             "Understanding how companies expand and compete internationally.",
                             "Learning about import/export regulations, tariffs, and market trends.",
@@ -278,7 +278,7 @@
                     {
                         "id": 6,
                         "name": "Business Economic",
-                        "namekh": "សេដ្ឋកិច្ចអាជីវកម្ម",
+                        "namekh": "សេដ្ឋកិច្ចពាណិជ្ជកម្ម",
                         "description": "The Business Economics major combines economic theories with business strategies to help students understand market trends, financial decision-making, and economic policies that impact businesses. This program prepares students to analyze data, predict economic trends, and make informed business decisions in a competitive global environment.",
                         "descriptionkh": "មុខវិជ្ជាសេដ្ឋកិច្ចអាជីវកម្មនេះប្រើបញ្ហាអាគុយវិសាលជាមួយយុទ្ធសាស្ត្រអាជីវកម្ម ដើម្បីជួយនិស្សិតយល់ដឹងអំពីនិន្នាការទីផ្សារ ការសម្រេចចិត្តហិរញ្ញវត្ថុ និងគោលនយោបាយសេដ្ឋកិច្ចដែលមានឥទ្ធិពលដល់ក្រុមហ៊ុន។ កម្មវិធីនេះត្រៀមនិស្សិតដើម្បីវិភាគទិន្នន័យ ទស្សនាការនិន្នាការសេដ្ឋកិច្ច និងសម្រេចចិត្តប្រកួតប្រជែងនៅក្នុងបរិយាកាសអាជីវកម្មពិភពលោក។",
                         "price": 1200,
@@ -310,7 +310,7 @@
                     {
                         "id": 7,
                         "name": "Business and Enterprise Management",
-                        "namekh": "ការគ្រប់គ្រងអាជីវកម្ម និងសហគ្រាស",
+                        "namekh": "គ្រប់គ្រងធុរកិច្ច និងសហគ្រាស",
                         "description": "The Business and Enterprise Management major focuses on developing leadership, strategic thinking, and entrepreneurial skills. This program prepares students to manage businesses, optimize operations, and drive innovation in competitive markets. It combines business strategy, financial planning, and organizational leadership to equip students for success in corporate and entrepreneurial environments.",
                         "descriptionkh": "មុខវិជ្ជាការគ្រប់គ្រងអាជីវកម្ម និងសហគ្រាសផ្តោតលើការអភិវឌ្ឍជំនាញដឹកនាំ ការគិតយុទ្ធសាស្ត្រ និងជំនាញសហគ្រិន។ កម្មវិធីនេះត្រៀមនិស្សិតដើម្បីគ្រប់គ្រងអាជីវកម្ម អុបទិចអនុវត្តន៍ និងជំរុញការច្នៃប្រឌិតនៅក្នុងទីផ្សារប្រកួតប្រជែង។ វា៖ ប្រើយុទ្ធសាស្ត្រអាជីវកម្ម ការរៀបចំហិរញ្ញវត្ថុ និងការដឹកនាំអង្គការ ដើម្បីបណ្តុះបណ្តាលនិស្សិតសម្រាប់ភាពជោគជ័យក្នុងបរិយាកាសអាជីវកម្ម និងការត្រូវបានបង្ហាញចេញទៅក្រៅសហគ្រិន។",
                         "price": 1200,
@@ -340,7 +340,7 @@
                     {
                         "id": 8,
                         "name": "Risk Management and Insurance",
-                        "namekh": "ការគ្រប់គ្រងគ្រោះថ្នាក់ និងធានារ៉ាប់រង",
+                        "namekh": "គ្រប់គ្រងហានិភ័យ និងធានារ៉ាប់រង",
                         "description": "The Risk Management and Insurance major teaches students how to assess, mitigate, and manage risks within businesses and organizations. This program covers insurance policies, risk assessment techniques, and strategies to protect businesses from potential financial losses, preparing students for careers in risk management and insurance sectors.",
                         "descriptionkh": "មុខវិជ្ជាការគ្រប់គ្រងគ្រោះថ្នាក់ និងធានារ៉ាប់រងសិក្សាពីវិធីសាស្ត្រដែលអាចធ្វើការវាយតម្លៃ កាត់បន្ថយ និងគ្រប់គ្រងគ្រោះថ្នាក់នៅក្នុងអាជីវកម្ម និងអង្គការ។ កម្មវិធីនេះរួមបញ្ចូលគោលនយោបាយធានារ៉ាប់រង បច្ចេកទេសវាយតម្លៃគ្រោះថ្នាក់ និងយុទ្ធសាស្ត្រដើម្បីការពារ អាជីវកម្មពីការបាត់បង់ហិរញ្ញវត្ថុដែលអាចកើតមានបាន។",
                         "price": 1200,
@@ -348,7 +348,7 @@
                         "img": "img-bachelor-8.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-8.png",
+                        "styleimg": "img-style-bachelor-6.png",
                         "willLearn": [
                             "Identifying and assessing potential risks in business environments.",
                             "Developing strategies to minimize financial losses due to risks.",
@@ -375,7 +375,7 @@
                     {
                         "id": 9,
                         "name": "Supply Chain Management and Logistics",
-                        "namekh": "ការគ្រប់គ្រងខ្សែផ្គត់ផ្គង់ និងភស្តុតាង",
+                        "namekh": "គ្រប់គ្រងបណ្ដាញផ្គត់ផ្គង់ និងចលនូបត្ថម្ភ",
                         "description": "The Supply Chain Management and Logistics major focuses on optimizing the flow of goods and services from suppliers to consumers. This program covers supply chain strategies, inventory management, logistics systems, and transportation methods to help students manage the movement of products efficiently and effectively.",
                         "descriptionkh": "មុខវិជ្ជាការគ្រប់គ្រងខ្សែផ្គត់ផ្គង់ និងភស្តុតាងផ្តោតលើការលាយបញ្ជូនទំនិញ និងសេវាកម្មពីអ្នកផ្គត់ផ្គង់ទៅអ្នកប្រើប្រាស់។ កម្មវិធីនេះរួមបញ្ចូលយុទ្ធសាស្ត្រខ្សែផ្គត់ផ្គង់ ការគ្រប់គ្រងសារពើភ័ណ្ឌ ប្រព័ន្ធភស្តុតាង និងវិធីសាស្ត្រនៃការដឹកជញ្ជូនដើម្បីជួយសិស្សស្រមើលការផ្លាស់ប្តូរទំនិញយ៉ាងមានប្រសិទ្ធភាព និងមានប្រសិទ្ធភាព។",
                         "price": 1200,
@@ -383,7 +383,7 @@
                         "img": "img-bachelor-9.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-9.png",
+                        "styleimg": "img-style-bachelor-6.png",
                         "willLearn": [
                             "Designing and managing efficient supply chain systems.",
                             "Optimizing inventory management processes.",
@@ -410,7 +410,7 @@
                     {
                         "id": 10,
                         "name": "Fintech",
-                        "namekh": "ហិរញ្ញវត្ថុបច្ចេកវិទ្យា",
+                        "namekh": "បច្ចេកវិទ្យាហិរញ្ញវត្ថុ",
                         "description": "The Fintech major explores the intersection of finance and technology, equipping students with the knowledge to leverage technological innovations to enhance financial services. The program covers blockchain, digital payments, financial modeling, and the impact of technology on financial institutions and markets.",
                         "descriptionkh": "មុខវិជ្ជាហិរញ្ញវត្ថុបច្ចេកវិទ្យាជួបប្រទះពីការភ្ជាប់របស់ហិរញ្ញវត្ថុ និងបច្ចេកវិទ្យា ដែលផ្តល់ជូនសិស្សនូវចំណេះដឹងក្នុងការប្រើប្រាស់នូវការបង្កើតបច្ចេកវិទ្យាថ្មីៗដើម្បីបង្កើនសេវាហិរញ្ញវត្ថុ។ កម្មវិធីនេះរួមបញ្ចូល blockchain ការបង់ប្រាក់ឌីជីថល គំរូហិរញ្ញវត្ថុ និងអត្ថផលនៃបច្ចេកវិទ្យាដែលមានលើស្ថាប័នហិរញ្ញវត្ថុ និងទីផ្សារ។",
                         "price": 1200,
@@ -418,7 +418,7 @@
                         "img": "img-bachelor-10.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-10.png",
+                        "styleimg": "img-style-bachelor-11.png",
                         "willLearn": [
                             "Understanding the role of technology in financial services.",
                             "Learning about blockchain and its applications in finance.",
@@ -445,7 +445,7 @@
                     {
                         "id": 11,
                         "name": "Business IT",
-                        "namekh": "ព័ត៌មានវិទ្យាអាជីវកម្ម",
+                        "namekh": "បច្ចេកវិទ្យាព័ត៌មានធុរកិច្ច",
                         "description": "The Business IT major focuses on the integration of information technology with business processes, equipping students with skills in digital transformation, enterprise systems, data management, and IT-driven decision-making. The program covers topics such as business analytics, cybersecurity, and IT project management.",
                         "descriptionkh": "មុខវិជ្ជាព័ត៌មានវិទ្យាអាជីវកម្មផ្តោតលើការរួមបញ្ចូលបច្ចេកវិទ្យាព័ត៌មានជាមួយដំណើរការអាជីវកម្ម ដើម្បីផ្តល់ជូនសិស្សនូវជំនាញក្នុងការបម្លែងឌីជីថល ប្រព័ន្ធសហគ្រាស ការគ្រប់គ្រងទិន្នន័យ និងការសម្រេចចិត្តផ្អែកលើ IT។ កម្មវិធីនេះរួមបញ្ចូលវិស័យអភិវឌ្ឍន៍អាជីវកម្មតាមបច្ចេកវិទ្យា សន្តិសុខសុវត្ថិភាព និងគ្រប់គ្រងគម្រោង IT។",
                         "price": 1200,
@@ -513,13 +513,13 @@
                     {
                         "id": 13,
                         "name": "Teaching English as a Foreign Language",
-                        "namekh": "ការបង្រៀនភាសាអង់គ្លេសជាភាសាបរទេស",
+                        "namekh": "ការបង្រៀនភាសាអង់គ្លេស",
                         "description": "The Teaching English as a Foreign Language (TEFL) program prepares students to become effective English language educators. The program covers language teaching methodologies, curriculum design, second language acquisition, assessment techniques, and classroom management strategies.",
                         "descriptionkh": "កម្មវិធីការបង្រៀនភាសាអង់គ្លេសជាភាសាបរទេស (TEFL) រៀបចំសិស្សឱ្យក្លាយជាគ្រូបង្រៀនភាសាអង់គ្លេសដ៏មានប្រសិទ្ធិភាព។ កម្មវិធីនេះរួមបញ្ចូលវិធីសាស្រ្តបង្រៀនភាសា ការរចនាកម្មវិធីសិក្សា ការទទួលយកភាសាទីពីរ វិធីសាស្រ្តវាយតម្លៃ និងយុទ្ធសាស្រ្តគ្រប់គ្រងថ្នាក់រៀន។",
                         "price": 1200,
                         "curriculaLink": "https://aub.edu.kh/tc/eng/ap_curricula_bachelor_arts_teaching_english_foreign_language.pdf",
                         "img": "img-bachelor-13.jpg",
-                        "styleimg": "img-style-bachelor-13.png",
+                        "styleimg": "img-style-bachelor-15.png",
                         "yearOfStudy": 4,
                         "credits": 124,
                         "willLearn": [
@@ -548,7 +548,7 @@
                     ,{
                         "id": 14,
                         "name": "English for Translation and Interpreting",
-                        "namekh": "ភាសាអង់គ្លេសសម្រាប់ការបកប្រែនិងការបកស្រាយ",
+                        "namekh": "ភាសាអង់គ្លេសសម្រាប់បំណិនបកប្រែ",
                         "description": "The English for Translation and Interpreting major equips students with the skills to translate and interpret between English and other languages, focusing on accuracy, fluency, and cultural nuances. This program prepares students for careers in translation, interpretation, and language services in diverse sectors, including international relations, business, and media.",
                         "descriptionkh": "មុខវិជ្ជាភាសាអង់គ្លេសសម្រាប់ការបកប្រែនិងការបកស្រាយផ្តល់ជំនាញសិស្សក្នុងការបកប្រែ និងបកស្រាយរវាងភាសាអង់គ្លេស និងភាសាផ្សេងទៀត ជាអាទិភាពលើការពន្យល់បានត្រឹមត្រូវ ប្រសិទ្ធភាព និងភាពរួសរាយ។ បណ្ដុះបណ្ដាលសិស្សសម្រាប់មុខរបរ ក្នុងការបកប្រែ បកស្រាយ និងសេវាកម្មភាសា ក្នុងវិស័យផ្សេងៗ រួមទាំងទំនាក់ទំនងអន្តរជាតិ អាជីវកម្ម និងមេឌា។",
                         "price": 1200,
@@ -583,7 +583,7 @@
                     {
                         "id": 15,
                         "name": "English for Business Communication",
-                        "namekh": "ភាសាអង់គ្លេសសម្រាប់ការប្រាស្រ័យទាក់ទងក្នុងអាជីវកម្ម",
+                        "namekh": "ភាសាអង់គ្លេសសម្រាប់ទំនាក់ទំនងធុរកិច្ច",
                         "description": "The English for Business Communication major focuses on developing effective communication skills in business environments, both in writing and speaking. This program prepares students for professional communication in global business settings, including negotiations, presentations, and cross-cultural interactions.",
                         "descriptionkh": "មុខវិជ្ជាភាសាអង់គ្លេសសម្រាប់ការប្រាស្រ័យទាក់ទងក្នុងអាជីវកម្មផ្តោតលើការអភិវឌ្ឍជំនាញក្នុងការប្រាស្រ័យទាក់ទងប្រកបដោយប្រសិទ្ធភាពនៅក្នុងបរិបទអាជីវកម្ម ទាំងក្នុងការសរសេរ និងនិយាយ។ កម្មវិធីនេះបណ្ដុះបណ្ដាលសិស្សសម្រាប់ការប្រាស្រ័យទាក់ទងវិជ្ជាជីវៈក្នុងបរិបទអាជីវកម្មអន្តរជាតិ រួមទាំងការចរចា ការបង្ហាញ និងការប្រាស្រ័យទាក់ទងស៊ីវិលក្នុងវប្បធម៌ផ្សេងៗ។",
                         "price": 1200,
@@ -591,7 +591,7 @@
                         "img": "img-bachelor-15.jpg",
                         "yearOfStudy": 4,
                         "credits": 124,
-                        "styleimg": "img-style-bachelor-12.png",
+                        "styleimg": "img-style-bachelor-15.png",
                         "willLearn": [
                             "Developing written and oral communication skills for business settings.",
                             "Mastering negotiation techniques and strategies for successful business deals.",
@@ -669,7 +669,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-2.png",
                         "willLearn": [
                             "Understanding and applying financial accounting principles.",
                             "Mastering management accounting for business decisions.",
@@ -704,7 +704,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-3.png",
                         "willLearn": [
                             "Leading campaigns and developing marketing strategies.",
                             "Managing brand identity and reputation.",
@@ -727,7 +727,7 @@
                     {
                         "id": 4,
                         "name": "Export-Import Management",
-                        "namekh": "ការគ្រប់គ្រងការនាំចេញនិងនាំចូល",
+                        "namekh": "គ្រប់គ្រងអាហរ័ណ-នីហរ័ណ",
                         "description": "The Export-Import Management major provides students with the knowledge and skills necessary to manage global trade and logistics. Students will learn the complexities of international trade, including legal frameworks, tariffs, customs regulations, and the supply chain, to become effective managers in the import-export industry.",
                         "descriptionkh": "មុខវិជ្ជាការគ្រប់គ្រងការនាំចេញនិងនាំចូលផ្តល់ជូនសិស្សនូវចំណេះដឹងនិងជំនាញដើម្បីគ្រប់គ្រងពាណិជ្ជកម្មសកល និងការដឹកជញ្ជូន។ សិស្សនឹងរៀនអំពីភាពស្មុគស្មាញនៃពាណិជ្ជកម្មអន្តរជាតិស្តីពីរចនាសម្ព័ន្ធច្បាប់ បត្ដិការណ៍ ទង់ពន្ធ អនុវត្តន៍នាំចូលនិងទំនាក់ទំនងជួញដូរ ដើម្បីក្លាយជាគ្រប់គ្រងដែលមានប្រសិទ្ធភាពក្នុងឧស្សាហកម្មនាំចេញនិងនាំចូល។",
                         "price": 1200,
@@ -735,7 +735,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-associate-4.png",
                         "willLearn": [
                             "Understanding the fundamentals of global trade and logistics.",
                             "Managing customs clearance, tariffs, and international shipping.",
@@ -770,7 +770,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-6.png",
                         "willLearn": [
                             "Understanding risk management principles and insurance fundamentals.",
                             "Learning how to assess insurance needs for individuals and businesses.",
@@ -797,7 +797,7 @@
                     {
                         "id": 6,
                         "name": "Logistics",
-                        "namekh": "ការដឹកជញ្ជូន",
+                        "namekh": "ចលនូបត្ថម្ភ",
                         "description": "The Logistics major focuses on the management of the flow of goods and services from the point of origin to the final consumer. Students will learn about transportation, warehousing, inventory control, supply chain management, and distribution strategies. This program prepares students to coordinate and optimize the movement of products across global and local markets.",
                         "descriptionkh": "មុខវិជ្ជាការដឹកជញ្ជូនផ្តោតលើការគ្រប់គ្រងចលនារបស់ទំនិញនិងសេវាកម្មពីចំណុចដើមរហូតដល់អ្នកប្រើប្រាស់ចុងក្រោយ។ សិស្សនឹងរៀនអំពីការដឹកជញ្ជូន ការបញ្ជ្រោចស្ដុក ការគ្រប់គ្រងសារព័ត៌មាន ការគ្រប់គ្រងខ្សែចរន្តអាកាស និងយុទ្ធសាស្ត្រចែកចាយ។ កម្មវិធីនេះរៀបចំសិស្សសម្រាប់ការសម្របសម្រួលនិងបំរើការប្រមូលផ្តុំផលិតផលនៅលើទីផ្សារជាតិនិងអន្តរជាតិ។",
                         "price": 1200,
@@ -805,7 +805,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-6.png",
                         "willLearn": [
                             "Understanding the principles of logistics and supply chain management.",
                             "Studying transportation modes and their impact on logistics operations.",
@@ -840,7 +840,7 @@
                         "img": "img-associate.jpg",
                         "yearOfStudy": 2,
                         "credits": 124,
-                        "styleimg": "img-style-associate.png",
+                        "styleimg": "img-style-bachelor-15.png",
                         "willLearn": [
                             "Improving reading comprehension and critical analysis skills.",
                             "Developing writing skills for academic, professional, and creative purposes.",

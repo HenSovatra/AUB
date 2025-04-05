@@ -22,7 +22,7 @@ $(document).ready(function(){
             $registerBtn.removeClass("hidden").addClass("bounce");
         }, 1500);
     });
-    loadLanguage();
+    loadContent();
     $("#language").click(function(){
         let newurl = window.location.href.replace("majorkhmer.html", "major.html");
         window.location.href = newurl;
@@ -60,6 +60,7 @@ function loadContent(){
                     $(".degree-title").html(degree.namekh)
                     $("#willlearn").empty()
                     $("#register-button").html("ចុះឈ្មោះ");
+                    $("#img-style").attr("src","img/"+major.styleimg);
                     for(var i =0 ;i<major.willLearn.length;i++){
                         $("#willlearn").append("<li>"+major.willLearnkh[i]+"</li>")
                     }
@@ -74,29 +75,4 @@ function loadContent(){
         }
     })
     .catch(error => console.error('Error loading JSON:', error));
-}
-
-
-function loadLanguage() {
-    var language = localStorage.getItem("language") || "English";
-    updateLanguageUI(language);
-}
-
-function toggleLanguage() {
-    var language = localStorage.getItem("language") === "English" ? "Khmer" : "English";
-    localStorage.setItem("language", language);
-    updateLanguageUI(language);
-}
-
-function updateLanguageUI(language) {
-    if (language === "English") {
-        $("#language").attr("src", "img/american.jpg");
-        $("body").css("font-family","Krasar");
-        loadContent();
-
-    } else {
-        $("#language").attr("src", "img/cambodia.jpg");
-        $("body").css("font-family","Montserrat");
-        loadContent();
-    }
 }
