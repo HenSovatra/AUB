@@ -76,7 +76,7 @@ $(document).ready(function(){
     $(".carousel-degree .item").click(function(){
         var degreeid = $(".degree-button.active").index(".degree-button")+1;
         var majorid = $(this).data("id");
-        window.location.href = "major.html?degreeid="+degreeid+"&majorid="+majorid;     
+        window.location.href = "majorkhmer.html?degreeid="+degreeid+"&majorid="+majorid;     
     })
 
     $(window).on("scroll", function () {
@@ -93,7 +93,7 @@ $(document).ready(function(){
         }, 1500);
     });
     $("#language").click(function(){
-        alert('noo')
+        // alert('noo')
         window.location.href = "index.html";
     })
     

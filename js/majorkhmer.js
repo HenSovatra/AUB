@@ -6,7 +6,7 @@ $(document).ready(function(){
     let $registerBtn = $(".register");
     
     $(".back").click(function(){
-        window.location.href="index.html";
+        window.location.href="indexkhmer.html";
     })
 
     $(window).on("scroll", function () {
