@@ -96,7 +96,22 @@ $(document).ready(function(){
         // alert('noo')
         window.location.href = "index.html";
     })
-    
+
+    $('#owl-demo1 img').click(function () {
+        var src = $(this).attr('src');
+        $('#modalImage').attr('src', src);
+        $('#fullscreenModal').css("display","flex");
+      });
+  
+      $('#closeModal').click(function () {
+        $('#fullscreenModal').css("display","none");
+      });
+  
+      $('#fullscreenModal').click(function (e) {
+        if (e.target.id === 'fullscreenModal') {
+          $(this).css("display","none");
+        }
+      });
 });
 function showMajor(degree){
     $(".degree-button").removeClass("active");

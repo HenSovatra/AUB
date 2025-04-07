@@ -26,7 +26,6 @@ $(document).ready(function(){
     $("#language").click(function(){
         let newurl = window.location.href.replace("majorkhmer.html", "major.html");
         window.location.href = newurl;
-        
     })
 })
 
