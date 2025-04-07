@@ -97,10 +97,19 @@ $(document).ready(function(){
         window.location.href = "index.html";
     })
 
-    $('#owl-demo1 img').click(function () {
-        var src = $(this).attr('src');
-        $('#modalImage').attr('src', src);
-        $('#fullscreenModal').css("display","flex");
+    $('#owl-demo1 img')
+      .on('mousedown touchstart', function () {
+        isDragging = false;
+      })
+      .on('mousemove touchmove', function () {
+        isDragging = true;
+      })
+      .on('mouseup touchend', function (e) {
+        if (!isDragging) {
+          const src = $(this).attr('src');
+          $('#modalImage').attr('src', src);
+          $('#fullscreenModal').css("display","flex");
+        }
       });
   
       $('#closeModal').click(function () {
