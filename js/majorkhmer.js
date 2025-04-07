@@ -61,7 +61,7 @@ function loadContent(){
                     $("#willlearn").empty()
                     $("#register-button").html("ចុះឈ្មោះ");
                     $("#img-style").attr("src","img/"+major.styleimg);
-                    for(var i =0 ;i<major.willLearn.length;i++){
+                    for(var i =0 ;i<major.willLearnkh.length;i++){
                         $("#willlearn").append("<li>"+major.willLearnkh[i]+"</li>")
                     }
             } else {
