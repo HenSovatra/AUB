@@ -72,6 +72,12 @@ body{
     font-weight: bold;
     text-decoration: none;
     color: var(--light-blue-color);
+    background-color: var(--primary-color);
+    padding: 6px 15px;
+    margin-top: 20px !important;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: var(--white-color);
 }
 #yearOfStudy{
     font-weight: bold;
@@ -162,6 +168,33 @@ body{
     position: relative;
     right: 30px;
 }
+#detail{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--light-blue-color);
+    background-color: var(--primary-color);
+    padding: 6px 15px;
+    margin-top: 20px !important;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 16px;
+}
+.detail-head{
+    background-color: var(--primary-color);
+    border-radius: 20px 20px 5px 5px !important;
+}
+#trophy{
+    color: var(--secondary-color);
+}
+.tel{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.modal-content{
+    border-radius: 20px;
+}
 @media (max-width: 768px) {
 
     #major-name{
@@ -177,6 +210,12 @@ body{
         font-size: 16px;
     }
     .description{
+        font-size: 14px;
+    }
+    #curr{
+        font-size: 14px;
+    }
+    #detail{
         font-size: 14px;
     }
 }

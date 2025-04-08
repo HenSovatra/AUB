@@ -5,6 +5,12 @@ $(document).ready(function(){
     let scrollTimeout;
     let $registerBtn = $(".register");
     
+
+    $('#detail').on('click', function() {
+        $('#feeDetailModel').modal('show'); // Show the modal when the button is clicked
+      });
+
+
     $(".back").click(function(){
         window.location.href="indexkhmer.html";
     })

@@ -34,6 +34,12 @@ function loadContent(){
     var degreeid = params.get("degreeid");
     var majorid = params.get("majorid");
     var language = localStorage.getItem("language") || "English";
+
+    $('#detail').on('click', function() {
+        $('#feeDetailModel').modal('show'); // Show the modal when the button is clicked
+      });
+
+
     fetch('data/data.json')
     .then(response => response.json()) 
     .then(data => {
