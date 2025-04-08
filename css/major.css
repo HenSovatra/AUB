@@ -193,7 +193,7 @@ body{
     font-weight: bold;
 }
 .modal-content{
-    border-radius: 20px;
+    border-radius: 25px;
 }
 @media (max-width: 768px) {
 
