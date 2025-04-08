@@ -123,7 +123,7 @@ body{
     color: var(--white-color);
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
+    bottom: 75px;
     right: 15px;
     transition: 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
