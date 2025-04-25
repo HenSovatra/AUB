@@ -128,15 +128,8 @@ body{
     font-weight: bold;
     color: var(--primary-color);
 }
-.carousel-degree .major .major-icon svg{
-    fill: var(--secondary-color);
-    height: 50px;
-}
-.carousel-degree .major .major-icon svg path{
-    stroke: var(--secondary-color);
-    height: 50px;
-}
-.carousel-degree .major .major-icon{
+
+.carousel-degree .major .major-icon img{
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     display: flex;
@@ -144,6 +137,7 @@ body{
     align-items: center;
     width: 90px;
     height: 90px;
+    padding: 10px;
 }
 .student-achieve-frame{
     background-color: #A9A9A9;
