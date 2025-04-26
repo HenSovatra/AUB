@@ -12,7 +12,9 @@ $(document).ready(function(){
 
 
     $(".back").click(function(){
-        window.location.href="indexkhmer.html";
+        const params = new URLSearchParams(window.location.search);
+        var theme = params.get("theme");
+        window.location.href="indexkhmer.html?theme="+theme;
     })
 
     $(window).on("scroll", function () {
@@ -39,6 +41,16 @@ function loadContent(){
     const params = new URLSearchParams(window.location.search);
     var degreeid = params.get("degreeid");
     var majorid = params.get("majorid");
+    var theme = params.get("theme");
+
+    if(theme=="light"){
+        $("body").css("background","linear-gradient(to left, #5e87b9,rgb(165, 182, 204),#5e87b9)");
+        $(".bar").css("background","#5e87b9");
+        $(".bar").css("color","#1B3452");
+        $(".description").css("color","#1B3452");
+        $("h5").css("color","#1B3452").removeClass("text-white");
+    }
+
     var language = localStorage.getItem("language") || "English";
     fetch('data/data.json')
     .then(response => response.json()) 
