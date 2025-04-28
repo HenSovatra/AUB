@@ -69,7 +69,7 @@ function loadContent(){
                     $("#fee").html("$"+major.price+" ក្នុងមួយឆ្នាំ");
                     $("#major-pic").attr("src", "img/"+major.img);
                     $("#curr").attr("href",major.curriculaLink)
-                    $("#curr").html("កម្មវិធីសឹក្សា");
+                    $("#curr").html("កម្មវិធីសិក្សា");
                     $("#overview").html("លម្អិត");
                     $("#study-period").html("រយៈពេលសិក្សា");
                     $("#tution-fee").html("តម្លៃសិក្សា");

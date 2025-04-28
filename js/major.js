@@ -43,6 +43,7 @@ function loadContent(){
         $(".bar").css("color","#1B3452");
         $(".description").css("color","#1B3452");
         $("h5").css("color","#1B3452").removeClass("text-white");
+        $("#major-name").css("color","#ffbf00");
     }
 
     var language = localStorage.getItem("language") || "English";
