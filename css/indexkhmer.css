@@ -285,3 +285,10 @@ border-radius: 20px;
     max-height:90%; 
     border-radius:10px;
 }
+
+#owl-demo2-associate .major-icon img{
+    border: 2px solid #b08d23;
+}
+#mobile-associate .major-icon img{
+    border: 2px solid #b08d23;
+}
