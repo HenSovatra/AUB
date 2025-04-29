@@ -2,7 +2,7 @@
     {
         "degree":[
             {
-                "id":1,
+                "id":3,
                 "name":"Master",
                 "namekh":"បរិញ្ញាបត្រជាន់ខ្ពស់",
                 "majors":[
@@ -619,7 +619,7 @@
                 ]
             },
             {
-                "id":3,
+                "id":1,
                 "name":"Associate",
                 "namekh":"បរិញ្ញាបត្ររង",
                 "majors":[
