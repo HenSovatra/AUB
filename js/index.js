@@ -32,7 +32,7 @@ $(document).ready(function(){
         autoplayTimeout: 8000,
         autoplayHoverPause: false, 
         nav: false, 
-        dots: true,
+        dots: false,
     });
     
     $("#owl-demo2-master").owlCarousel({
