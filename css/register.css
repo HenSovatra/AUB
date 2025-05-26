@@ -110,13 +110,11 @@ body {
         box-shadow: none;
     }
     .submit-container {
-        padding-bottom: 75px;
+        padding-bottom: 85px;
     }
 }
 
 .submit-container {
-    position: fixed;
-    bottom: 0;
     z-index: 100;
     width: 100%;
     right: 0;
