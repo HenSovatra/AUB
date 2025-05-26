@@ -109,6 +109,9 @@ body {
         margin-right: 0 !important;
         box-shadow: none;
     }
+    .submit-container {
+        padding-bottom: 75px;
+    }
 }
 
 .submit-container {
