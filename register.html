@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container-fluid p-0">
-        
+
         <div class="row">
             <div class="col-12 bar">
                 <div class="back"><i class="fa-solid fa-chevron-left"></i></div>
@@ -23,81 +23,115 @@
                     <img src="img/logo3.png" />
                 </div>
                 <div>
-                    <img src="img/cambodia.jpg" width="50" height="35" id="language" style="display: none;"/>
+                    <img src="../img/cambodia.jpg" width="50" height="35" id="language" style="display: none;" />
                 </div>
             </div>
-         </div>
+        </div>
         <div class="col-12 pt-2 registration-title">
             <h3 class="fw-bold m-0 degree-title col-12 text-center text-white my-3">Registration Form</h3>
         </div>
-        <div class="container mt-3" style="min-height:58vh">
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">First Name<span style="color:#b08d23"> *</span></p>
-                   <input class="form-control" placeholder=""/>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Last Name<span style="color:#b08d23"> *</span></p>
-                   <input class="form-control" placeholder="" />
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Gender<span style="color:#b08d23"> *</span></p>
-                    <select class="form-select">
-                        <option></option>
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select>
-               </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Date of Birth<span style="color:#b08d23"> *</span></p>
-                   <input type="date" class="form-control" />
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Phone Number<span style="color:#b08d23"> *</span></p>
-                   <input class="form-control" placeholder="" />
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
-                   <input class="form-control" placeholder=""/>
-               </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-5 mt-3">
-                   <p class="label-register">Major<span style="color:#b08d23"> *</span></p>
-                    <select class="form-select">
-                        <option></option>
-                         <option value="finance-and-banking-1">Finance and Banking (Associate)</option>
-                         <option value="accounting-1">Accounting (Associate)</option>
-                         <option value="marketing-1">Marketing (Associate)</option>
-                         <option value="export-import-management-1">Export-Import Management (Associate)</option>
-                        <option value="insurance-1">Insurance (Associate)</option><option values="logistics-1">Logistics (Associate)</option>
-                        <option values="english-1">English (Associate)</option>
-                        <option values="finance-and-banking-2">Finance and Banking (Bachelor)</option>
-                        <option values="accounting-2">Accounting (Bachelor)</option>
-                        <option values="computer-science-and-engineering-2">Computer Science and Engineering (Bachelor)</option>
-                        <option values="fintech-2">Fintech (Bachelor)</option>
-                        <option values="business-it-2">Business IT (Bachelor)</option>
-                        <option values="supply-chain-management-and-logistics-2">Supply Chain Management and Logistics (Bachelor)</option>
-                        <option values="marketing-2">Marketing (Bachelor)</option>
-                        <option values="law-2">Law (Bachelor)</option>
-                        <option values="international-business-2">International Business (Bachelor)</option>
-                        <option values="business-economic-2">Business Economic (Bachelor)</option>
-                        <option values="business-and-enterprise-management-2">Business and Enterprise Management (Bachelor)</option>
-                        <option values="risk-management-and-insurance-2">Risk Management and Insurance (Bachelor)</option>
-                        <option values="teaching-english-as-a-foreign-language-2">Teaching English as a Foreign Language (Bachelor)</option>
-                        <option values="english-for-translation-and-interpreting-2">English for Translation and Interpreting (Bachelor)</option>
-                        <option values="english-for-business-communication-2">English for Business Communication (Bachelor)</option>
-                        <option values="finance-and-banking-3">Finance and Banking (Master)</option>
-                        <option values="finance-3">Finance (Master)</option>
-                        <option values="management-3">Management (Master)</option>
-                    </select>
-               </div>
+        <div class="container p-0 mt-xl-5 mt-lg-5 mt-md-3 mt-sm-3 mt-3">
+            <div class="row d-flex gap-xl-5 gap-lg-5 gap-md-0 gap-sm-0 gap-0">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">First Name<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                        <span class="invalid-feedback">
+                            Please fill your firstname
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Last Name<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                        <span class="invalid-feedback">
+                            Please fill your lastname
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">First Name (khmer)<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="firstnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
+                        <span class="invalid-feedback">
+                            Please fill your firstname in khmer
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Last Name (khmer)<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="lastnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
+                        <span class="invalid-feedback">
+                            Please fill your lastname in khmer
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Gender<span style="color:#b08d23"> *</span></p>
+                        <select class="form-select" id="sex">
+                            <option value="0">(Select Item)</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                        <span class="invalid-feedback">
+                            Please choose your gender
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Date of Birth<span style="color:#b08d23"> *</span></p>
+                        <input type="text" placeholder="Day Month Year" class="form-control" id="dateOfBirth" />
+                        <span class="invalid-feedback">
+                            Please fill your date of birth
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Phone Number<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="phone" maxlength="12" />
+                        <span class="invalid-feedback">
+                            Please fill your phone number
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" id="cpPhone" maxlength="12" />
+                        <span class="invalid-feedback">
+                            Please fill your parent phone number
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Degree<span style="color:#b08d23"> *</span></p>
+                        <select class="form-select" id="degreeCbo">
+                            <option value="0">(Select Item)</option>
+                        </select>
+                        <span class="invalid-feedback">
+                            Please choose your degree
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                        <p class="label-register">Major<span style="color:#b08d23"> *</span></p>
+                        <select class="form-select" id="majorCbo">
+                            <option value="0">(Select Item)</option>
+                        </select>
+                        <span class="invalid-feedback">
+                            Please choose your major
+                        </span>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="opacity:0">
+                        <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
+                        <input class="form-control" placeholder="" maxlength="12" disabled="disabled" />
+                    </div>
+                </div>
+
+
             </div>
         </div>
-        <div class="row submit-container mt-5">
-              <div class="col-12 d-flex justify-content-center align-items-center">
-                  <button id="btn-submit">Submit</button>
-              </div>
+        <div>
+            <br /><br /><br /><br /><br /><br />
+        </div>
+        <div class="submit-container mt-5">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <button id="btn-submit">Register</button>
+            </div>
         </div>
     </div>
+
 </body>
 <script src="jquery/jquery.js"></script>
 <script src="js/register.js"></script>
