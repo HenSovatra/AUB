@@ -10,12 +10,17 @@ $(document).ready(function(){
     var theme = params.get("theme");
     console.log(theme)
     if(theme=="light"){
-            $("body").css("background","linear-gradient(to left, #5e87b9,rgb(165, 182, 204),#5e87b9)");
+            $("body").css("background","#E9E9E9");
             $(".title").css("color","#1B3452");
     }
     let lastScrollY = $(window).scrollTop();
     let scrollTimeout;
     let $registerBtn = $(".register");
+
+    $(".register-btn").click(function(){
+        window.location.href = "register.html?theme="+theme
+    })
+
     $("#owl-demo1").owlCarousel({
         items: 1, 
         loop: true, 

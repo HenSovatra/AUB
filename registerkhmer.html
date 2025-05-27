@@ -1,103 +1,41 @@
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="lib/jquery-ui.css">
+    <link rel="stylesheet" href="lib/jquery-datetimepicker.css">
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js" defer></script>
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="css/register.css">
-
+    <link rel="stylesheet" href="lib/intlTelInput.css">
     <title>ACLEDA University of Business</title>
 </head>
-<body style="font-family: 'Krasar';">
-    <div class="container-fluid p-0">
-
-        <div class="row">
-            <div class="col-12 bar">
-                <div class="back"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="d-flex justify-content-center align-items-center" id="logo">
-                    <img src="img/logo3.png" />
-                </div>
-                <div>
-                    <img src="../img/cambodia.jpg" width="50" height="35" id="language" style="display: none;" />
-                </div>
+<body  style="font-family: 'Krasar';">
+    <div class="container-fluid p-0 all-container">
+        <div class="col-12 pt-2 registration-title d-flex align-items-center justify-content-between">
+            <div class="back "><i class="fa-solid fa-chevron-left"></i></div>
+            <h3 class="fw-bold m-0 degree-title  text-center text-white my-3">ទម្រង់ចុះឈ្មោះចូលរៀន</h3>
+            <div>
+                <img src="../img/cambodia.jpg" width="50" height="35" id="language" style="opacity: 0;" />
             </div>
         </div>
-        <div class="col-12 pt-2 registration-title">
-            <h3 class="fw-bold m-0 degree-title col-12 text-center text-white my-3">ទម្រង់ចុះឈ្មោះចូលរៀន</h3>
-        </div>
-        <div class="container  p-0 mt-xl-5 mt-lg-5 mt-md-3 mt-sm-3 mt-3">
-            <div class="row d-flex gap-xl-5 gap-lg-5 gap-md-0 gap-sm-0 gap-0">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">នាម (ឡាតាំង)<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញនាមជាអក្សរឡាតាំង
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">នាមត្រកូល (ឡាតាំង)<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញនាមត្រកូលជាអក្សរឡាតាំង
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">នាម<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="firstnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញនាមជាអក្សរខ្មែរ
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">នាមត្រកូល<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="lastnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញនាមត្រកូលជាអក្សរខ្មែរ
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">ភេទ<span style="color:#b08d23"> *</span></p>
-                        <select class="form-select" id="sex">
-                            <option value="0">(Select Item)</option>
-                            <option value="M">ប្រុស</option>
-                            <option value="F">ស្រី</option>
-                        </select>
-                        <span class="invalid-feedback">
-                            សូមជ្រើសរើសភេទ
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">ថ្ងៃ ខែ ឆ្នាំ កំណើត<span style="color:#b08d23"> *</span></p>
-                        <input type="text" class="form-control" placeholder="ថ្ងៃ ខែ ឆ្នាំ" id="dateOfBirth" />
-                        <span class="invalid-feedback">
-                            សូមជ្រើសរើសថ្ងៃខែឆ្នាំកំណើត
-                        </span>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
-                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">លេខទូរស័ព្ទ<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="phone" maxlength="12" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញលេខទូរស័ព្ទផ្ទាល់ខ្លួន
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">លេខទូរស័ព្ទអាណាព្យាបាល<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="cpPhone" maxlength="12" />
-                        <span class="invalid-feedback">
-                            សូមបំពេញលេខទូរស័ព្ទអាណាព្យាបាល
-                        </span>
-                    </div>
+        <div class=" animation-container" id="first-container">
+            <div class="container">
+                <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
                         <p class="label-register">កម្រិតសញ្ញាបត្រ<span style="color:#b08d23"> *</span></p>
                         <select class="form-select" id="degreeCbo">
                             <option value="0">(Select Item)</option>
+                            <option value="1">បរិញ្ញាបត្ររង</option>
+                            <option value="2">បរិញ្ញាបត្រ</option>
+                            <option value="3">បរិញ្ញាបត្រជាន់ខ្ពស់</option>
+                            <option value="4">DoctorPhD</option>
                         </select>
                         <span class="invalid-feedback">
                             សូមជ្រើសរើសកម្រិតសញ្ញាបត្រ
@@ -112,24 +50,100 @@
                             សូមជ្រើសរើសជំនាញ
                         </span>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="opacity:0">
-                        <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" maxlength="12" disabled="disabled" />
+                </div>
+                <div class="row">
+                    <div class="px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-5">
+                        <div class="col-12 d-flex justify-content-end align-items-center">
+                            <button id="next-btn">បន្ទាប់</button>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
+        <div class=" animation-container" id="second-container">
+                <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-5 col-sm-5 col-5 px-xl-3 px-lg-3 ps-md-5 ps-sm-5 ps-5  mt-3">
+                                    <p class="label-register">នាមត្រកូល<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                                    <span class="invalid-feedback">
+                                        សូមបំពេញនាមត្រកូលជាអក្សរឡាតាំង
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-7 col-sm-7 col-7 px-xl-3 px-lg-3 pe-md-5 pe-sm-5 pe-5 mt-3">
+                                    <p class="label-register">នាម<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                                    <span class="invalid-feedback">
+                                        សូមបំពេញនាមជាអក្សរឡាតាំង
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">ភេទ<span style="color:#b08d23"> *</span></p>
+                                   <select class="form-select" id="sex">
+                                        <option value="0">(Select Item)</option>
+                                        <option value="M">ប្រុស</option>
+                                        <option value="F">ស្រី</option>
+                                    </select>
+                                    <span class="invalid-feedback">
+                                        សូមជ្រើសរើសភេទ
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">ថ្ងៃ ខែ ឆ្នាំ កំណើត<span style="color:#b08d23"> *</span></p>
+                                    <input type="text" placeholder="ថ្ងៃ ខែ ឆ្នាំ" class="form-control" id="dateOfBirth" readonly/>
+                                    <span class="invalid-feedback">
+                                        សូមជ្រើសរើសថ្ងៃខែឆ្នាំកំណើត
+                                    </span>
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">លេខទូរស័ព្ទ<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="phone" maxlength="12" />
+                                    <span class="invalid-feedback">
+                                        សូមបំពេញលេខទូរស័ព្ទផ្ទាល់ខ្លួន
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">លេខទូរស័ព្ទអាណាព្យាបាល<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="cpPhone" maxlength="12" />
+                                    <span class="invalid-feedback">
+                                        សូមបំពេញលេខទូរស័ព្ទអាណាព្យាបាល
+                                    </span>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">អ៊ីមែល</p>
+                                    <input class="form-control" placeholder="" id="phone" maxlength="12" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-5">
+                                    <div class="col-12 d-flex justify-content-between align-items-center">
+                                        <button id="prev-btn">ថយក្រោយ</button>
+                                        <button id="btn-submit">ចុះឈ្មោះ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+        </div>
+      
         <div>
             <br />
         </div>
-        <div class=" submit-container mt-5">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <button id="btn-submit">ចុះឈ្មោះ</button>
-            </div>
-        </div>
     </div>
+
 </body>
 <script src="jquery/jquery.js"></script>
+<script src="lib/jquery-ui.js"></script>
+<script src="lib/jquery-datetimepicker.js"></script>
+<script src="lib/intlTelInput-jquery.min.js"></script>
+<script src="lib/intlTelInput.min.js"></script>
+<script src="lib/utils.js"></script>
 <script src="js/registerkhmer.js"></script>
 </html>

@@ -28,7 +28,7 @@ body{
     justify-content: center;
     /* padding-top: 3%; */
     font-family: "Montserrat";
-    background: linear-gradient(to left, #1B3452, #001937,#000E20);
+    background: #1B3452;
     height: 100vh;
     overflow-x: hidden;
 }

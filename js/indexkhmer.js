@@ -12,9 +12,13 @@ $(document).ready(function(){
     const params = new URLSearchParams(window.location.search);
     var theme = params.get("theme");
     if(theme=="light"){
-            $("body").css("background","linear-gradient(to left, #5e87b9,rgb(165, 182, 204),#5e87b9)");
+            $("body").css("background","#E9E9E9");
             $(".title").css("color","#1B3452");
     }
+
+    $(".register-btn").click(function(){
+        window.location.href = "registerkhmer.html?theme="+theme
+    })
     $("#owl-demo1").owlCarousel({
         items: 1, 
         loop: true, 

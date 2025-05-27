@@ -38,8 +38,8 @@ function loadContent(){
     var theme = params.get("theme");
 
     if(theme=="light"){
-        $("body").css("background","linear-gradient(to left, #5e87b9,rgb(165, 182, 204),#5e87b9)");
-        $(".bar").css("background","#5e87b9");
+        $("body").css("background","#E9E9E9");
+        $(".bar").css("background","#E9E9E9");
         $(".bar").css("color","#1B3452");
         $(".description").css("color","#1B3452");
         $("h5").css("color","#1B3452").removeClass("text-white");

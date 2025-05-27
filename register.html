@@ -8,98 +8,36 @@
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="lib/jquery-ui.css">
+    <link rel="stylesheet" href="lib/jquery-datetimepicker.css">
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js" defer></script>
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="lib/intlTelInput.css">
     <title>ACLEDA University of Business</title>
 </head>
 <body>
-    <div class="container-fluid p-0">
-
-        <div class="row">
-            <div class="col-12 bar">
-                <div class="back"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="d-flex justify-content-center align-items-center" id="logo">
-                    <img src="img/logo3.png" />
-                </div>
-                <div>
-                    <img src="../img/cambodia.jpg" width="50" height="35" id="language" style="display: none;" />
-                </div>
+    <div class="container-fluid p-0 all-container">
+        <div class="col-12 pt-2 registration-title d-flex align-items-center justify-content-between">
+            <div class="back "><i class="fa-solid fa-chevron-left"></i></div>
+            <h3 class="fw-bold m-0 degree-title  text-center text-white my-3">Registration Form</h3>
+            <div>
+                <img src="../img/cambodia.jpg" width="50" height="35" id="language" style="opacity: 0;" />
             </div>
         </div>
-        <div class="col-12 pt-2 registration-title">
-            <h3 class="fw-bold m-0 degree-title col-12 text-center text-white my-3">Registration Form</h3>
-        </div>
-        <div class="container p-0 mt-xl-5 mt-lg-5 mt-md-3 mt-sm-3 mt-3">
-            <div class="row d-flex gap-xl-5 gap-lg-5 gap-md-0 gap-sm-0 gap-0">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">First Name<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
-                        <span class="invalid-feedback">
-                            Please fill your firstname
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Last Name<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
-                        <span class="invalid-feedback">
-                            Please fill your lastname
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">First Name (khmer)<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="firstnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
-                        <span class="invalid-feedback">
-                            Please fill your firstname in khmer
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Last Name (khmer)<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="lastnameKh" oninput="this.value = this.value.replace(/[^\u1780-\u17FF\s]/g, '')" />
-                        <span class="invalid-feedback">
-                            Please fill your lastname in khmer
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Gender<span style="color:#b08d23"> *</span></p>
-                        <select class="form-select" id="sex">
-                            <option value="0">(Select Item)</option>
-                            <option value="M">Male</option>
-                            <option value="F">Female</option>
-                        </select>
-                        <span class="invalid-feedback">
-                            Please choose your gender
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Date of Birth<span style="color:#b08d23"> *</span></p>
-                        <input type="text" placeholder="Day Month Year" class="form-control" id="dateOfBirth" />
-                        <span class="invalid-feedback">
-                            Please fill your date of birth
-                        </span>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 row custom-container">
-                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Phone Number<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="phone" maxlength="12" />
-                        <span class="invalid-feedback">
-                            Please fill your phone number
-                        </span>
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
-                        <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" id="cpPhone" maxlength="12" />
-                        <span class="invalid-feedback">
-                            Please fill your parent phone number
-                        </span>
-                    </div>
+        <div class=" animation-container" id="first-container">
+            <div class="container">
+                <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
                         <p class="label-register">Degree<span style="color:#b08d23"> *</span></p>
                         <select class="form-select" id="degreeCbo">
                             <option value="0">(Select Item)</option>
+                            <option value="1">Associate</option>
+                            <option value="2">Bachelor</option>
+                            <option value="3">Master</option>
+                            <option value="4">DoctorPhD</option>
                         </select>
+
                         <span class="invalid-feedback">
                             Please choose your degree
                         </span>
@@ -113,26 +51,100 @@
                             Please choose your major
                         </span>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="opacity:0">
-                        <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
-                        <input class="form-control" placeholder="" maxlength="12" disabled="disabled" />
+                </div>
+               <div class="row">
+                    <div class="px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-5">
+                        <div class="col-12 d-flex justify-content-end align-items-center">
+                            <button id="next-btn">Next</button>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
+        <div class=" animation-container" id="second-container">
+                <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-5 col-sm-5 col-5 px-xl-3 px-lg-3 ps-md-5 ps-sm-5 ps-5  mt-3">
+                                    <p class="label-register">Last Name<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                                    <span class="invalid-feedback">
+                                        Please fill your lastname
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-7 col-sm-7 col-7 px-xl-3 px-lg-3 pe-md-5 pe-sm-5 pe-5 mt-3">
+                                    <p class="label-register">First Name<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-Z.]/g, '').replace(/(\..*)\./g, '$1');" />
+                                    <span class="invalid-feedback">
+                                        Please fill your firstname
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">Gender<span style="color:#b08d23"> *</span></p>
+                                    <select class="form-select" id="sex">
+                                        <option value="0">(Select Item)</option>
+                                        <option value="M">Male</option>
+                                        <option value="F">Female</option>
+                                    </select>
+                                    <span class="invalid-feedback">
+                                        Please choose your gender
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">Date of Birth<span style="color:#b08d23"> *</span></p>
+                                    <input type="text" placeholder="Day Month Year" class="form-control" id="dateOfBirth" readonly/>
+                                    <span class="invalid-feedback">
+                                        Please fill your date of birth
+                                    </span>
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">Phone Number<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="phone" maxlength="12" />
+                                    <span class="invalid-feedback">
+                                        Please fill your phone number
+                                    </span>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">Parent's Phone Number<span style="color:#b08d23"> *</span></p>
+                                    <input class="form-control" placeholder="" id="cpPhone" maxlength="12" />
+                                    <span class="invalid-feedback">
+                                        Please fill your parent phone number
+                                    </span>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-3">
+                                    <p class="label-register">Email</p>
+                                    <input class="form-control" placeholder="" id="phone" maxlength="12" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="px-xl-3 px-lg-3 px-md-5 px-sm-5 px-5 mt-5">
+                                    <div class="col-12 d-flex justify-content-between align-items-center">
+                                        <button id="prev-btn">Prev</button>
+                                        <button id="btn-submit">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+        </div>
+      
         <div>
             <br />
-        </div>
-        <div class="submit-container mt-5">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <button id="btn-submit">Register</button>
-            </div>
         </div>
     </div>
 
 </body>
 <script src="jquery/jquery.js"></script>
+<script src="lib/jquery-ui.js"></script>
+<script src="lib/jquery-datetimepicker.js"></script>
+<script src="lib/intlTelInput-jquery.min.js"></script>
+<script src="lib/intlTelInput.min.js"></script>
+<script src="lib/utils.js"></script>
 <script src="js/register.js"></script>
 </html>
