@@ -8,7 +8,6 @@ var majors = {
 $(document).ready(function(){
     const params = new URLSearchParams(window.location.search);
     var theme = params.get("theme");
-    console.log(theme)
     if(theme=="light"){
             $("body").css("background","#E9E9E9");
             $(".title").css("color","#1B3452");
@@ -105,8 +104,6 @@ $(document).ready(function(){
         }, 1500);
     });
     $("#language").click(function(){
-        // console.log("hello hi bye bye");
-        // alert('alert')
         window.location.href = "indexkhmer.html";
     })
     

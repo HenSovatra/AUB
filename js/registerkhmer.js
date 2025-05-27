@@ -1,7 +1,6 @@
 $(document).ready(function(){
     const params = new URLSearchParams(window.location.search);
     var theme = params.get("theme");
-    console.log(theme)
     if(theme=="light"){
         $("body").css("background","#E9E9E9");
         $(".bar").css("background","#E9E9E9");
